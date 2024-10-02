@@ -1,0 +1,131 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        font-size:
+      }
+      
+      h1 {
+        font-size: 3vw;
+      }
+      
+      p {
+        font-size: 1vw;
+      }
+      
+      .header {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+      }
+      
+      .header a {
+        text-decoration: unset;
+        color: black;
+      }
+      
+      .header a:hover {
+        text-decoration: underline
+      }
+    
+      .section {
+        margin: 4vw;
+      }
+      
+      .banner {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+      }
+      
+      .banner .image-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .banner .image-container img {
+        width: 100%;
+      }
+            
+      .banner .text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: color-mix(in srgb, black, 50% transparent);
+      }
+       
+      .our-project-container {
+        display: flex;
+        gap: 10%;
+      }
+      
+      .image-container {
+        overflow: hidden;
+      }
+      
+      .our-project-container .image-container {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        flex: 1;
+      }
+      
+      .our-project-container .image-container img {
+        height: 100%;
+      }
+      
+      .our-project-container .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+      }
+    </style>
+    <nav class="header section">
+      <a href="./index.html" style="text-decoration: underline;">Home</a>
+      <a href="./team.html">The Team</a>
+      <a href="./timesheet.html">Timesheet</a>
+    </nav>
+    <div class="banner section">
+      <div class="image-container">
+        <img src="./terravision.jpg"></img>
+      </div>
+      <div class="text-container">
+        <h1>TerraVision Senior Project</h1>
+      </div>
+    </div>
+    <div class="our-project-container section">
+      <div class="image-container">
+        <img src="./wavy-striped-lawn.jpg"></img>
+      </div>
+      <div class="text-container">
+        <h1>Our Project</h1>
+        <p>
+          Our project is designed to assist landscapers in planning for cutting their lawns via a cross-platform mobile app. This includes generating various patterns, optimizing their routes, and estimating their costs based on the mower’s travel speed and deck size.
+        </p>
+        <p>
+          Sponsoring Organization: N/A
+        </p>
+        <p>
+          Sponsoring Party: Mike Buffalin
+        </p>
+        <p>
+          Project Coach: Professor Bruce Herring
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

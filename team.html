@@ -1,0 +1,167 @@
+<html>
+  <head></head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        font-size:
+      }
+      
+      h1 {
+        font-size: 3vw;
+      }
+      
+      p {
+        font-size: 1vw;
+      }
+      
+      .header {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+      }
+      
+      .header a {
+        text-decoration: unset;
+        color: black;
+      }
+      
+      .header a:hover {
+        text-decoration: underline
+      }
+    
+      .section {
+        margin: 4vw;
+      }
+      
+      .our-team {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .our-team .team-members {
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+      .our-team .team-members .team-member {
+        width: 25vw;
+      }
+      
+      .portrait {
+        width: 100%;
+        aspect-ratio: 3 / 4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+      
+      .portrait img {
+        height: 100%;
+      }
+    </style>
+    <nav class="header section">
+      <a href="./index.html">Home</a>
+      <a href="./team.html" style="text-decoration: underline;">The Team</a>
+      <a href="./timesheet.html">Timesheet</a>
+    </nav>
+    <div class="our-team section">
+      <h1>The Team</h1>
+      <div class="team-members">
+        <div class="team-member">
+          <div class="portrait">
+            <img src="./vish.jpg"></img>
+          </div>
+          <p>
+            <b>Vishwesh Venkatramani</b>
+            <br>
+            5th Year Software Engineering Student from Shanghai, China
+          </p>
+          <p>
+            Work Experience: Paychex, DataTech Consulting & Contracting
+          </p>
+          <p>
+            Project Roles: Sponsor Communicator, Pattern Pathfinding and Time Estimation Subsystem Lead
+          </p>
+        </div>
+        
+        <div class="team-member">
+          <div class="portrait">
+            <img src="./jaden.png"></img>
+          </div>
+          <p>
+            <b>Jaden Schuster</b>
+            <br>
+            5th Year Software Engineering Student from Rochester, New York
+          </p>
+          <p>
+            Work Experience: Rochester Software Associates, Niblack Technologies
+          </p>
+          <p>
+            Project Roles: Publisher, Lawn Recognition Subsystem Lead
+          </p>
+        </div>
+        
+        <div class="team-member">
+          <div class="portrait">
+          <img src="./nolan.jpg"></img>
+          </div>
+          <p>
+            <b>Nolan White</b>
+            <br>
+            5th Year Software Engineering Student from Rochester, New York
+          </p>
+          <p>
+            Work Experience: Solü Technology Partners
+          </p>
+          <p>
+            Project Roles: Project Coordinator, User-Defined Polyline Subsystem Lead
+          </p>
+        </div>
+        
+        <div class="team-member">
+          <div class="portrait">
+            <img src="./robert.png"></img>
+          </div>
+          <p>
+            <b>Robert Mastropieri</b>
+            <br>
+            5th Year Software Engineering Student from Long Island, NY
+          </p>
+          <p>
+            Work Experience: Crowdcopia LLC, COLSA
+          </p>
+          <p>
+            Project Roles: Tech Lead, Plan Management Subsystem Lead
+          </p>
+        </div>
+        
+        <div class="team-member">
+          <div class="portrait">
+            <img src="./abiel.jpeg"></img>
+          </div>
+          <p>
+            <b>Abiel Yemane</b>
+            <br>
+            5th year Software Engineering Student from Rochester, NY
+          </p>
+          <p>
+            Work Experience: Wabtec
+          </p>
+          <p>
+            Project Roles: Scrumban Master, Property Locating Subsystem Lead
+          </p>
+        </div>
+        
+        <div class="team-member">
+          <!-- Fake team member for alignment purposes -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
